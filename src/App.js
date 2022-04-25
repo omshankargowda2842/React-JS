@@ -1,12 +1,12 @@
 
 import React from 'react'
-import Employee from './list rendering/Employee'
+import Form from './formhandling/Form1'
 import Navbar from './Navbar/Navabr'
 
 
 const App = () => {
   return (
-    <div><Navbar/><Employee/>
+    <div><Navbar/><Form/>
     </div>
   )
 }
