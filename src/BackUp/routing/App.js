@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { BrowserRouter as Router , Route, Switch } from 'react-router-dom'
-import Home from '../Component/Home'
-import About from '../Component/About'
-import Contact from '../Component/Contact'
-import Service from '../Component/Service'
+import Home from '../../Dummy/Home'
+import About from '../../Dummy/About'
+import Contact from '../../Dummy/Contact'
+import Service from '../../Dummy/Service'
 const App = () => {
     return (
         <div>
